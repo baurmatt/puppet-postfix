@@ -42,6 +42,7 @@ class postfix::params {
        '16.10' => '/usr/lib/postfix/sbin',
        '17.04' => '/usr/lib/postfix/sbin',
        '17.10' => '/usr/lib/postfix/sbin',
+       '18.04' => '/usr/lib/postfix/sbin',
        default => '/usr/lib/postfix',
       }
       $data_directory = '/var/lib/postfix'
